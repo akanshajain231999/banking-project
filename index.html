@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link href="css/style.css" rel="stylesheet">-->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="web3.min.js"></script>
+    <script src="main.js"></script>
+
+</head>
+
+<body>
+
+    <h1>Solidity Case Study: Banking dApp.</h1>
+    <div class="instance instance_15vqBv">
+        <div class="udapp-close"></div>
+        <div class="contractProperty constant" id="getBalance"><button class="call" id="getbal" title="getBalance">getBalance</button><input placeholder="address address_user" id="getBalId" title="address address_user">
+            <div class="outputgetBalance"></div>
+        </div>
+        <div class="contractProperty"><button class="call" id="depositButton" title="deposit">deposit</button><input placeholder="uint256 depositeAmount" id="depositId" title="uint256 depositeAmount">
+            <div class="outputDeposit"></div>
+        </div>
+        <div class="contractProperty"><button class="call" id="transferButton" title="transfer">transfer</button><input placeholder="address address_to" id="address_to" title="address address_to"><input placeholder="address address_from" id="address_from" title="address address_from"><input placeholder="uint256 amountTransfer" id="amountTransfer" title="uint256 amountTransfer">
+            <div class="outputTransfer"></div>
+        </div>
+        <div class="contractProperty"><button class="call" id="withdrawButton" title="withDraw">withDraw</button><input placeholder="uint256 withdrawAmount" id="withdrawAmount" title="uint256 withdrawAmount">
+            <div class="outputwithDraw"></div>
+        </div>
+    </div>
+
+</body>
+
+</html>
